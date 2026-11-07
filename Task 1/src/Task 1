@@ -1,0 +1,12 @@
+a) When a customer arrives,
+the simulation schedules the next arrival.
+This keeps customers coming throughout the simulation.
+For example, if customers arrive every 5 minutes,
+an arrival at minute 10 schedules the next one for minute 15.
+
+
+b) Starting service schedules a service completion event.
+Its time is the start time plus the service duration.
+For example, if service starts at minute "2" and takes 4 minutes,
+it finishes at minute 6.
+At that point, the customer leaves the single service point and the server becomes free.
