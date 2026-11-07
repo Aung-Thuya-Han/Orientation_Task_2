@@ -1,0 +1,9 @@
+- At minute 16, the simulation clock moves to the next scheduled events (A phase).
+- Operator 1 finishes serving X2, and the router sends X3 to Operator 1’s queue (B phase).
+- Operator 1 is now free, so it starts serving X3 and schedules the service
+to finish at minute 20 (C phase).
+- The clock then moves to minute 18 (A phase).
+- Operator 2 finishes serving Y1, and Y1 leaves the system (B phase).
+- All queues are empty, so no new service starts (C phase).
+- At this point, two X customers and one Y customer have finished.
+- The first Y customer leaves at minute 18.
